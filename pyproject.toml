@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "goit-web-hw-9"
+version = "0.1.0"
+description = ""
+authors = ["filinmbg <filinmbg@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+beautifulsoup4 = "^4.12.2"
+requests = "^2.31.0"
+sqlalchemy = "^2.0.23"
+mongoengine = "^0.27.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
